@@ -1,0 +1,56 @@
+.contenedor-padre{
+  width:80%;
+  max-width: 800px;
+  height: 100%;
+  margin: auto;
+  color:#ffffff;
+}
+
+.contenedor-hijo{
+  background: linear-gradient(red, black, red);
+  width: 100%;
+  height: 100%;
+  text-align: justify;
+  border-radius: 20px;
+}
+
+h1{
+  padding-top: 20px;
+  text-align: center;
+}
+
+.tema{
+  animation: 15px;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+}
+
+p{
+  font-size: 20px;
+  font-style: italic;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+a{
+  font-size: 25px;
+  font-style: italic;
+  text-decoration: none;
+  color: yellow;
+  padding: 30px;
+  transition: color 2s ease;
+}
+
+.texto{
+  padding-bottom: 30px;
+}
+
+a:hover{
+  color: white;
+}
+
+.bottom-footer{
+  text-align: center;
+  padding: 5px;
+}

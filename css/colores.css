@@ -1,0 +1,54 @@
+/* ###### colores del texto ######*/
+#textocuerpo a, .barraderecha a{
+  color: #ff2020;
+}
+
+.barraizquierda a{
+  color: #ff2020;
+}
+
+h1, .barraizquierda span{
+  color: #a68c53;
+}
+
+.cabeceratitulo, .cabeceraenlaces *, .barraizquierda, .barraizquierdatitulo, .barraizquierda .lapagina, .barraderecha, .barraizquierdatitulo{
+  color: black;
+}
+
+.barramenu a:hover{
+  color: black
+}
+
+.cabeceratitulo span, .barramenu, .barramenu *{
+  color: white;
+}
+
+.cabeceraenlaces{
+  color: #b82619;
+}
+
+/* ###### colores de fondo ######*/
+body{
+  background-color: #c3c2c2;
+}
+
+#textocuerpo, .cabeceraenlaces, .barramenu a:hover, .barraderecha{
+  background-color: white;
+}
+
+#cabecera{
+  background-color: #b82619;
+}
+
+.barramenu{
+  background-color: black;
+}
+
+.barraizquierda, .barraizquierdatitulo, .barraderecha, .barraizquierdatitulo{
+  background-color: #e6dfcf;
+}
+
+/* ###### colores del borde ###### */
+h1, #textocuerpo, .barraderecha{
+  border-color: #e6dfcf;
+}

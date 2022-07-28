@@ -1,0 +1,180 @@
+/* body */
+body{
+  font-family: verdana, tahoma, helvetica, arial, sans-serif;
+  font-size: 94%;
+  margin: 0;
+}
+
+h1, h2, h3{
+  font-family: arial, verdana, tahoma, sans-serif;
+}
+
+h1{
+  font-size: 164%;
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 1em;
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+
+p{
+  padding-bottom: 1ex;
+}
+
+img{
+  border: none;
+}
+
+code{
+  font-family: "lucida console", monospace;
+  font-size: 95%;
+}
+
+dt{
+  font-weight: bold;
+}
+
+dd{
+  padding-bottom: 1.5em;
+}
+
+#textocuerpo{
+  text-align: justify;
+  line-height: 1.5em;
+  margin-left: 12em;
+  padding: 0.5ex 14em 1em 1em;
+  border-left-style: solid;
+  border-left-width: 1px;
+}
+
+#textocuerpo a{
+  /*colores.css*/
+}
+
+#textocuerpo a:hover{
+  text-decoration: none;
+}
+
+/* cabecera */
+#cabecera{
+  height: 4em;
+  padding: 0.25em 2.5em 0 4mm;
+}
+
+.cabeceratitulo{
+  font-size: 252%;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.5em;
+}
+
+.cabeceratitulo span{
+  font-weight: normal;
+}
+
+.cabeceraenlaces{
+  font-size: 87%;
+  padding: 0.5ex 10em 0.5ex 1em;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.cabeceraenlaces *{
+  text-decoration: none;
+  padding: 0 2ex 0 1ex;
+}
+
+.cabeceraenlaces a:hover{
+  text-decoration: underline;
+}
+
+.barramenu{
+  text-align: center;
+  padding: 0.5ex 0;
+}
+
+.barramenu *{
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 2ex 0 1ex;
+}
+
+.barramenu a:hover{
+  /*colores.css*/
+}
+
+/* Izquierda*/
+.barraizquierda{
+  font-size: 95%;
+  width: 12.65em;
+  float: left;
+  clear: left;
+}
+
+.barraizquierda a, .barraizquierda span{
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 2em;
+  padding: 0.75ex 1ex;
+  display: block;
+}
+
+[class="barraizquierda"] a, [class="barraizquierda"] span{
+  line-height: 1.5em;
+}
+
+.barraizquierda a:hover{
+  /*colores.css*/
+}
+
+.barraizquierda .barraizquierdatitulo{
+  font-weight: bold;
+  padding: 0.75ex 1ex;
+}
+
+.barraizquierda .barratexto{
+  font-weight: normal;
+  padding: 1ex 0.75ex 1ex 1ex;
+}
+
+.barraizquierda .lapagina{
+  /*colores.css */
+}
+
+/* ###### Derecha ###### */
+.barraderecha{
+  font-size: 95%;
+  width: 12.65em;
+  margin: 2ex 0.8ex 0 0;
+  float: right;
+  clear: right;
+  border-style: solid;
+  border-width: 1px;
+}
+
+[class~="barraderecha"]{
+  margin-right: 1.5ex;
+}
+
+.barraderecha a{
+  font-weight: bold;
+}
+
+.barraderecha a:hover{
+  text-decoration: none;
+}
+
+.barraderecha .barraizquierdatitulo{
+  font-weight: bold;
+  margin: 1em 1ex;
+  padding: 0.7ex 1ex;
+}
+
+.barraderecha .barratexto{
+  font-weight: normal;
+  line-height: 1.5em;
+  padding: 0 3ex 1em 2ex;
+}

@@ -1,0 +1,62 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-style: italic;
+  background-image: url(../img/proyecto.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 950px;
+}
+
+h1{
+  text-align: center;
+  margin-top: 20px;
+}
+
+form{
+  width: 450px;
+  max-width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+legend{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+label{
+  font-size: 18px;
+}
+
+input{
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-style: italic;
+  font-size: 18px;
+}
+
+#Boton{
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+#Boton:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+@media all and (min-width:469px) {
+  form{
+    width: 100%;
+  }
+}
